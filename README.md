@@ -16,9 +16,9 @@ An interactive dashboard that visualizes the biodiversity data from Poland.
 - R/Shiny
 - Bs4Dash
 - Leaflet, for building an interactive map
-- Highcharter, for building interactive plot
-- Reactable, for building interactive table
-- Miller, for filtering large dataset
+- Highcharter, for building an interactive plot
+- Reactable, for building an interactive table
+- Miller, for filtering a large dataset
 - CSS, for moderate dashboard styling
 
 ## Dataset
