@@ -24,7 +24,7 @@ An interactive dashboard that visualizes the biodiversity data from Poland.
 ## Dataset
 
 This project required the use of a 20GB dataset. The dataset covered the whole world, but focus was on data from Poland. Therefore, the 20GB dataset had to be filtered down to results from Poland.
-You can achieve that using [miller](https://miller.readthedocs.io/en/6.13.0/), a command line tool can be used to filter the data down to only results from Poland before it is loaded into the R session. 
+You can achieve that using [miller](https://miller.readthedocs.io/en/6.13.0/), a command line tool that can be used to filter the data down to only results from Poland before it is loaded into the R session. 
 You can accomplish that by running the following simple command in your command line: `mlr --csv filter '$country == "Poland"' occurence.csv > poland.csv`.
 
 ## Deployment
